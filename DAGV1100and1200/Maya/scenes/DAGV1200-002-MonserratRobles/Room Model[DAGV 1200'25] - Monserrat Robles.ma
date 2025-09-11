@@ -1,9 +1,9 @@
 //Maya ASCII 2026 scene
-//Name: Room Model[DAGV 1200'25].ma
-//Last modified: Tue, Sep 09, 2025 09:41:54 PM
+//Name: Room Model[DAGV 1200'25] - Monserrat Robles.ma
+//Last modified: Wed, Sep 10, 2025 06:12:52 PM
 //Codeset: 1252
 requires maya "2026";
-requires "mtoa" "5.5.2";
+requires -nodeType "polyBoolean" "polyBoolean" "1.1";
 requires "mtoa" "5.5.2";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
@@ -11,17 +11,17 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202505131231-aff5f20443";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "5340F388-43D0-BB78-4496-9E960313A90F";
+fileInfo "UUID" "3928ACE5-4658-0F0E-FC09-E8B2CAF37D11";
 createNode transform -s -n "persp";
 	rename -uid "23BD9EDA-49A7-A130-BDEE-EE83BCAF7D37";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 37.962037808975488 11.052480260314454 39.140095311959627 ;
-	setAttr ".r" -type "double3" -5.1383527288842714 -322.59999999983523 -5.0045571280631867e-16 ;
+	setAttr ".t" -type "double3" 34.74720131174027 15.545214222623901 31.814164678964389 ;
+	setAttr ".r" -type "double3" -12.338352675894152 -309.00000000017866 2.5269757079898857e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BC5108DA-4924-0675-A84F-3180A9AF3C4B";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 54.412233619445956;
+	setAttr ".coi" 54.712776532006828;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -440,7 +440,7 @@ createNode mesh -n "ChairMeshShape" -p "ChairMesh";
 	setAttr ".gtag[5].gtagnm" -type "string" "top";
 	setAttr ".gtag[5].gtagcmp" -type "componentList" 4 "f[1]" "f[59]" "f[65]" "f[71]";
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 150 ".uvst[0].uvsp[0:149]" -type "float2" 0.375 0 0.625 0 0.375
+	setAttr -s 158 ".uvst[0].uvsp[0:157]" -type "float2" 0.375 0 0.625 0 0.375
 		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
 		 0.875 0.25 0.125 0 0.125 0.25 0.375 0 0.375 0.5 0.625 0.5 0.625 0.75 0.375 0.75 0.625
 		 0 0.875 0 0.875 0.25 0.625 0.25 0.125 0 0.375 0 0.375 0.25 0.125 0.25 0.625 0 0.625
@@ -458,7 +458,8 @@ createNode mesh -n "ChairMeshShape" -p "ChairMesh";
 		 0.5 0.375 0.5 0.375 0.5 0.375 0.5 0.375 0.5 0.625 0 0.625 0 0.625 0 0.375 0 0.375
 		 0 0.625 0.25 0.375 0.25 0.625 0.25 0.625 0 0.375 0 0.375 0.25 0.625 0.22148502 0.625
 		 0.25 0.625 0.22148496 0.625 0.023448873 0.625 0 0.625 0.023448825 0.375 0.024459731
-		 0.375 0 0.375 0.024459722 0.375 0.23103307 0.375 0.25 0.375 0.23103316;
+		 0.375 0 0.375 0.024459722 0.375 0.23103307 0.375 0.25 0.375 0.23103316 0.375 0.5
+		 0.625 0.5 0.375 0.75 0.625 0.75 0.625 0.25 0.625 0 0.875 0 0.875 0.25;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
@@ -536,15 +537,15 @@ createNode mesh -n "ChairMeshShape" -p "ChairMesh";
 		f 4 1 7 -3 -7
 		mu 0 4 2 3 5 4
 		f 4 22 24 -27 -28
-		mu 0 4 4 5 7 6
+		mu 0 4 150 151 7 6
 		f 4 3 11 -1 -11
-		mu 0 4 6 7 9 8
+		mu 0 4 152 153 9 8
 		f 4 -31 -33 -35 -36
-		mu 0 4 1 10 11 3
+		mu 0 4 1 10 11 154
 		f 4 38 40 42 43
 		mu 0 4 23 24 25 26
 		f 4 0 13 -15 -13
-		mu 0 4 0 1 127 14
+		mu 0 4 0 155 127 14
 		f 4 -2 17 18 -16
 		mu 0 4 3 2 133 134
 		f 4 2 21 -23 -21
@@ -552,19 +553,19 @@ createNode mesh -n "ChairMeshShape" -p "ChairMesh";
 		f 4 52 54 -57 -58
 		mu 0 4 28 29 30 31
 		f 4 -4 25 26 -24
-		mu 0 4 7 6 18 17
+		mu 0 4 153 152 18 17
 		f 4 -61 62 64 -66
 		mu 0 4 32 33 34 35
 		f 4 -12 28 30 -30
-		mu 0 4 1 10 20 19
+		mu 0 4 155 156 20 19
 		f 4 -8 33 34 -32
-		mu 0 4 11 3 22 21
+		mu 0 4 157 3 22 21
 		f 4 10 37 -39 -37
 		mu 0 4 12 0 24 23
 		f 4 6 41 -43 -40
 		mu 0 4 2 13 26 25
 		f 4 5 45 -47 -45
-		mu 0 4 1 3 132 27
+		mu 0 4 155 3 132 27
 		f 4 -69 70 71 -73
 		mu 0 4 128 36 37 129
 		f 4 -5 47 49 -49
@@ -572,21 +573,21 @@ createNode mesh -n "ChairMeshShape" -p "ChairMesh";
 		f 4 75 76 -79 -80
 		mu 0 4 38 39 131 40
 		f 4 9 51 -53 -51
-		mu 0 4 5 7 29 28
+		mu 0 4 5 153 29 28
 		f 4 82 84 -87 -88
 		mu 0 4 41 42 43 44
 		f 4 -25 55 56 -54
 		mu 0 4 17 16 31 30
 		f 4 -9 58 60 -60
-		mu 0 4 6 4 33 32
+		mu 0 4 152 4 33 32
 		f 4 27 63 -65 -62
 		mu 0 4 15 18 35 34
 		f 4 -91 92 94 -96
 		mu 0 4 45 46 47 48
 		f 4 -14 66 68 -68
-		mu 0 4 127 1 36 128
+		mu 0 4 127 155 36 128
 		f 4 44 69 -71 -67
-		mu 0 4 1 27 37 36
+		mu 0 4 155 27 37 36
 		f 4 199 198 -72 -70
 		mu 0 4 27 135 129 37
 		f 4 12 74 -76 -74
@@ -596,17 +597,17 @@ createNode mesh -n "ChairMeshShape" -p "ChairMesh";
 		f 4 -48 73 79 -78
 		mu 0 4 130 0 38 40
 		f 4 23 81 -83 -81
-		mu 0 4 7 17 42 41
+		mu 0 4 153 17 42 41
 		f 4 53 83 -85 -82
 		mu 0 4 17 30 43 42
 		f 4 -55 85 86 -84
 		mu 0 4 30 29 44 43
 		f 4 -52 80 87 -86
-		mu 0 4 29 7 41 44
+		mu 0 4 29 153 41 44
 		f 4 -26 88 90 -90
-		mu 0 4 18 6 46 45
+		mu 0 4 18 152 46 45
 		f 4 59 91 -93 -89
-		mu 0 4 6 32 47 46
+		mu 0 4 152 32 47 46
 		f 4 65 93 -95 -92
 		mu 0 4 32 35 48 47
 		f 4 -64 89 95 -94
@@ -1174,8 +1175,17 @@ createNode transform -n "Wall2";
 createNode mesh -n "WallShape2" -p "Wall2";
 	rename -uid "6E6C6132-4D89-8145-9A5E-0FACDCF0EDFE";
 	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
+	setAttr -s 2 ".iog[0].og";
+	setAttr ".iog[0].og[1].gcl" -type "componentList" 1 "f[0:13]";
+	setAttr ".ovs" no;
+	setAttr ".ove" yes;
+	setAttr ".ovrgbf" yes;
+	setAttr ".ovrgb" -type "float3" 0.89969999 0.1575 0.1946 ;
+	setAttr ".ovca" 0.30000001192092896;
+	setAttr ".csh" no;
+	setAttr ".rcsh" no;
+	setAttr ".vis" no;
+	setAttr -s 2 ".ciog[0].cog";
 	setAttr -s 6 ".gtag";
 	setAttr ".gtag[0].gtagnm" -type "string" "back";
 	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[2]";
@@ -1248,6 +1258,18 @@ createNode transform -n "BookShelf";
 createNode mesh -n "BookShelfShape" -p "BookShelf";
 	rename -uid "000711DB-4E54-563C-40AD-16847DECBFB9";
 	setAttr -k off ".v";
+	setAttr -s 2 ".iog[0].og";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode mesh -n "polySurfaceShape1" -p "BookShelf";
+	rename -uid "1D0CF655-42E2-0833-9363-AFB6FAEB0DB9";
+	setAttr -k off ".v";
+	setAttr ".io" yes;
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:113]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
@@ -3648,12 +3670,38 @@ createNode mesh -n "BookShape24" -p "Book24";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "pCube1";
+createNode transform -n "Window";
 	rename -uid "23C4A090-4FCF-B3B3-BDFD-B48466E778C0";
-	setAttr ".t" -type "double3" 0 8 0 ;
-createNode mesh -n "pCubeShape1" -p "pCube1";
+	setAttr ".ovrgbf" yes;
+	setAttr ".ovrgb" -type "float3" 0.85882354 0.58039218 0.33725491 ;
+	setAttr ".t" -type "double3" -12 8 0 ;
+	setAttr ".s" -type "double3" 6.8807819667640793 6.8807819667640793 6.8807819667640793 ;
+createNode mesh -n "WindowShape" -p "Window";
 	rename -uid "EFB94A2A-4DCE-5DFD-4AC5-FFB70AD16740";
 	setAttr -k off ".v";
+	setAttr -s 2 ".iog[0].og";
+	setAttr ".ovs" no;
+	setAttr ".ove" yes;
+	setAttr ".ovrgbf" yes;
+	setAttr ".ovrgb" -type "float3" 0.89969999 0.1575 0.1946 ;
+	setAttr ".ovca" 0.30000001192092896;
+	setAttr ".csh" no;
+	setAttr ".rcsh" no;
+	setAttr ".vis" no;
+	setAttr -s 2 ".ciog[0].cog";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "polySurface1";
+	rename -uid "83605C4D-46EC-AA3E-8163-4387AFB242DD";
+	setAttr ".rp" -type "double3" -12 8 0 ;
+	setAttr ".sp" -type "double3" -12 8 0 ;
+createNode mesh -n "polySurfaceShape2" -p "polySurface1";
+	rename -uid "89EB524C-4DFE-D899-6CF4-F59D66BDFFB0";
+	setAttr -k off ".v";
+	setAttr -s 4 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
@@ -3662,15 +3710,15 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "2425BD3D-4E4B-D8B5-7A88-85815D8C519B";
+	rename -uid "B4A00D82-4F61-2BB0-E4B7-D2B542BC4BF1";
 	setAttr -s 5 ".lnk";
 	setAttr -s 5 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "4A655DA4-4BCC-BC42-3D9E-FC83638F2C61";
+	rename -uid "79E12E2A-41CC-5F8F-B4A0-BEAAD0559B0B";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "5BE01E3E-4B4A-8B46-C1BB-20949261E827";
+	rename -uid "97647FFA-4F78-A007-95BE-14ACA70E0285";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "6456C5C5-46D2-78AD-928D-F086B8EF05D8";
+	rename -uid "601D1E2E-4375-7616-CDC2-A1AE4F9C3F3B";
 	setAttr ".cdl" 3;
 	setAttr -s 4 ".dli[1:3]"  1 2 3;
 	setAttr -s 3 ".dli";
@@ -3678,7 +3726,7 @@ createNode displayLayer -n "defaultLayer";
 	rename -uid "87F86B4A-4255-5E98-F07C-AFBB99FEC5C2";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "CC67ED61-46A7-C8ED-3FAE-29BC1DDE894D";
+	rename -uid "90CD2C9B-4818-534F-F3BC-9DACBB5C58B0";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "390DA38C-4865-6262-E1C8-4691BD05E68C";
 	setAttr ".g" yes;
@@ -3731,7 +3779,6 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".st" 6;
 createNode displayLayer -n "FloorLyr";
 	rename -uid "1D8D3697-484F-38D1-D9F8-15AC1F83E486";
-	setAttr ".dt" 1;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 1;
 createNode groupId -n "groupId10";
@@ -3761,15 +3808,8 @@ createNode materialInfo -n "materialInfo2";
 	rename -uid "B4E617A0-4A6C-992B-593A-E7A9358DFD69";
 createNode displayLayer -n "WallsLyr";
 	rename -uid "D4DA4DAF-410D-DCBD-6846-E69FF3308C7C";
-	setAttr ".dt" 1;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 2;
-createNode groupId -n "groupId21";
-	rename -uid "432813F2-40CF-F9D4-9466-2BBA7BDFEC0F";
-	setAttr ".ihi" 0;
-createNode groupId -n "groupId22";
-	rename -uid "FF8FD755-47B3-24A7-A0E9-C3A6723F27D3";
-	setAttr ".ihi" 0;
 createNode lambert -n "lambert4";
 	rename -uid "587DDC03-441F-F5BC-DCEC-A9A208141592";
 createNode shadingEngine -n "lambert4SG";
@@ -3782,6 +3822,53 @@ createNode materialInfo -n "materialInfo3";
 createNode polyCube -n "polyCube1";
 	rename -uid "358756B8-46EA-0559-5E96-10A386C1C004";
 	setAttr ".cuv" 4;
+createNode polyBevel3 -n "polyBevel1";
+	rename -uid "9D047C47-4C47-0393-57C2-36A158144ADC";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 4 "e[0:1]" "e[76:77]" "e[152]" "e[165]";
+	setAttr ".ix" -type "matrix" 1 0 0 0 0 1.2144056955115501 0 0 0 0 1 0 0 0.021846736968058167 0 1;
+	setAttr ".ws" yes;
+	setAttr ".oaf" yes;
+	setAttr ".sg" 3;
+	setAttr ".at" 180;
+	setAttr ".sn" yes;
+	setAttr ".mv" yes;
+	setAttr ".mvt" 0.0001;
+	setAttr ".sa" 30;
+createNode groupId -n "groupId12";
+	rename -uid "25569551-4E2D-0283-11F8-2DA70B830E23";
+	setAttr ".ihi" 0;
+createNode groupParts -n "groupParts1";
+	rename -uid "55ADF294-4850-3689-A7C6-D092D4F67D8A";
+	setAttr ".ihi" 0;
+	setAttr ".ic" -type "componentList" 1 "f[0:113]";
+createNode polyBoolean -n "polyBoolean1";
+	rename -uid "1AC34B0D-4405-EA0A-02DE-1195CD691C2D";
+	setAttr -s 2 ".ip";
+	setAttr -s 2 ".im";
+	setAttr ".op" -type "Int32Array" 2 4 4 ;
+	setAttr ".ee" -type "Int32Array" 2 1 1 ;
+	setAttr ".mg" -type "Int32Array" 2 111 -113 ;
+	setAttr ".gav" 13;
+createNode groupId -n "groupId13";
+	rename -uid "F5A76ECE-44AF-4D6F-A98C-118B7B1BFC4F";
+	setAttr ".ihi" 0;
+createNode groupParts -n "groupParts2";
+	rename -uid "305699AD-460D-885F-610F-BF9F96456296";
+	setAttr ".ihi" 0;
+	setAttr ".ic" -type "componentList" 1 "f[0:5]";
+createNode groupId -n "groupId14";
+	rename -uid "55703BEC-4DAF-79F8-1BE0-BB9C3DC7B4C3";
+	setAttr ".ihi" 0;
+createNode groupId -n "groupId15";
+	rename -uid "5BBD3018-44AD-E5ED-8407-65B2AF809143";
+	setAttr ".ihi" 0;
+createNode groupId -n "groupId16";
+	rename -uid "72A88EEE-4ABA-788D-38ED-A79A88A73074";
+	setAttr ".ihi" 0;
+createNode groupId -n "groupId17";
+	rename -uid "EDF6341B-4E28-5B8E-8253-D9821DCD02EC";
+	setAttr ".ihi" 0;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -3807,8 +3894,9 @@ select -ne :openPBR_shader1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
 select -ne :initialShadingGroup;
-	setAttr -s 6 ".dsm";
+	setAttr -s 10 ".dsm";
 	setAttr ".ro" yes;
+	setAttr -s 5 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :defaultRenderGlobals;
@@ -3829,15 +3917,23 @@ select -ne :defaultColorMgtGlobals;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-select -ne :ikSystem;
-	setAttr -s 4 ".sol";
 connectAttr "FloorLyr.di" "FloorMesh.do";
 connectAttr "WallsLyr.di" "Wall1.do";
 connectAttr "WallsLyr.di" "Wall2.do";
-connectAttr "groupId22.id" "BookShelfShape.iog.og[0].gid";
+connectAttr "groupId15.id" "WallShape2.iog.og[1].gid";
+connectAttr ":initialShadingGroup.mwc" "WallShape2.iog.og[1].gco";
+connectAttr "groupId16.id" "WallShape2.ciog.cog[1].cgid";
+connectAttr "groupId12.id" "BookShelfShape.iog.og[0].gid";
 connectAttr ":initialShadingGroup.mwc" "BookShelfShape.iog.og[0].gco";
-connectAttr "groupId21.id" "BookShelfShape.ciog.cog[0].cgid";
-connectAttr "polyCube1.out" "pCubeShape1.i";
+connectAttr "polyBevel1.out" "BookShelfShape.i";
+connectAttr "groupParts2.og" "WindowShape.i";
+connectAttr "groupId13.id" "WindowShape.iog.og[1].gid";
+connectAttr ":initialShadingGroup.mwc" "WindowShape.iog.og[1].gco";
+connectAttr "groupId14.id" "WindowShape.ciog.cog[1].cgid";
+connectAttr "polyBoolean1.out" "polySurfaceShape2.i";
+connectAttr "groupId13.id" "polySurfaceShape2.iog.og[0].gid";
+connectAttr "groupId15.id" "polySurfaceShape2.iog.og[1].gid";
+connectAttr "groupId17.id" "polySurfaceShape2.ciog.cog[0].cgid";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "lambert2SG.message" ":defaultLightSet.message";
@@ -3883,6 +3979,16 @@ connectAttr "BookShape23.iog" "lambert4SG.dsm" -na;
 connectAttr "BookShape24.iog" "lambert4SG.dsm" -na;
 connectAttr "lambert4SG.msg" "materialInfo3.sg";
 connectAttr "lambert4.msg" "materialInfo3.m";
+connectAttr "groupParts1.og" "polyBevel1.ip";
+connectAttr "BookShelfShape.wm" "polyBevel1.mp";
+connectAttr "polySurfaceShape1.o" "groupParts1.ig";
+connectAttr "groupId12.id" "groupParts1.gi";
+connectAttr "WindowShape.o" "polyBoolean1.ip[0]";
+connectAttr "WallShape2.o" "polyBoolean1.ip[1]";
+connectAttr "WindowShape.wm" "polyBoolean1.im[0]";
+connectAttr "WallShape2.wm" "polyBoolean1.im[1]";
+connectAttr "polyCube1.out" "groupParts2.ig";
+connectAttr "groupId13.id" "groupParts2.gi";
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert3SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert4SG.pa" ":renderPartition.st" -na;
@@ -3892,9 +3998,17 @@ connectAttr "lambert4.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "FloorMeshShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "WallShape1.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "WallShape2.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "BookShelfShape.ciog.cog[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "BookShelfShape.iog.og[0]" ":initialShadingGroup.dsm" -na;
-connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "groupId22.msg" ":initialShadingGroup.gn" -na;
-// End of Room Model[DAGV 1200'25].ma
+connectAttr "WindowShape.iog.og[1]" ":initialShadingGroup.dsm" -na;
+connectAttr "WindowShape.ciog.cog[1]" ":initialShadingGroup.dsm" -na;
+connectAttr "WallShape2.iog.og[1]" ":initialShadingGroup.dsm" -na;
+connectAttr "WallShape2.ciog.cog[1]" ":initialShadingGroup.dsm" -na;
+connectAttr "polySurfaceShape2.iog.og[0]" ":initialShadingGroup.dsm" -na;
+connectAttr "polySurfaceShape2.iog.og[1]" ":initialShadingGroup.dsm" -na;
+connectAttr "polySurfaceShape2.ciog.cog[0]" ":initialShadingGroup.dsm" -na;
+connectAttr "groupId12.msg" ":initialShadingGroup.gn" -na;
+connectAttr "groupId13.msg" ":initialShadingGroup.gn" -na;
+connectAttr "groupId14.msg" ":initialShadingGroup.gn" -na;
+connectAttr "groupId15.msg" ":initialShadingGroup.gn" -na;
+connectAttr "groupId16.msg" ":initialShadingGroup.gn" -na;
+// End of Room Model[DAGV 1200'25] - Monserrat Robles.ma
