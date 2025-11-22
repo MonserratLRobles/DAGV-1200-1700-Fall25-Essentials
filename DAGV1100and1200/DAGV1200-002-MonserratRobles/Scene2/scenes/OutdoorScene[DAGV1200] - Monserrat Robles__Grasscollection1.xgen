@@ -2,7 +2,7 @@
 #
 # Version:  C:/Program Files/Autodesk/Maya2026/plug-ins/xgen/
 # Author:   Monse
-# Date:     Mon Nov 10 16:21:50 2025
+# Date:     Fri Nov 21 09:05:07 2025
 
 FileVersion 18
 
@@ -115,7 +115,7 @@ SplinePrimitive
 	cutParam		1.0
 	texelsPerUnit		10.0
 	CVFrequency		1.0
-	widthRamp		rampUI(0.0,1.0,1:1.0,1.0,1)
+	widthRamp		rampUI(0.0,1.0,3:0.026397515527950312,1.0,3:0.07935153583617748,1.0,3:0.15217391304347827,1.0,3:0.2568259385665529,1.0,3:0.5930034129692833,1.0,3:0.8796928327645052,1.0,3:0.999,1.0,1:1.0,1.0,1)
 	endAttrs
 
 RandomGenerator
