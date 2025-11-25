@@ -97,3 +97,4 @@ public class SimpleCharacterController : MonoBehaviour
         Debug.Log("test");
     }
 }
+

@@ -4,12 +4,14 @@ public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private float maxHealth = 100f;
     [SerializeField] private float currentHealth;
+    [SerializeField] private Animator animator;
     void Awake()
     {
         currentHealth = maxHealth;
     }
     public void TakeDamage(float amount)
     {
+        animator.SetTrigger("PlayerHit");
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // Ensure health doesn't go below 0 or above maxHealth
         // Add logic for death if currentHealth reaches 0
