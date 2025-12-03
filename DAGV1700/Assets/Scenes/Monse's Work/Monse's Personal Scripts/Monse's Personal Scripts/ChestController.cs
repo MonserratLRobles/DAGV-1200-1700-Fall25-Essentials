@@ -25,15 +25,6 @@ public class ChestController : MonoBehaviour
             Debug.Log("Player left chest range.");
         }
     }
-
-    void Update()
-    {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E)) // Interact with 'E' key
-        {
-            OpenChestAndEjectItem();
-        }
-    }
-
     void OpenChestAndEjectItem()
     {
         // Optional: Play chest open animation here
@@ -47,6 +38,30 @@ public class ChestController : MonoBehaviour
                 // Apply an upward force, and a slight random horizontal force
                 Vector3 forceDirection = (Vector3.up * ejectionForce) + (Random.insideUnitSphere * ejectionForce * 0.5f);
                 rb.AddForce(forceDirection, ForceMode.Impulse);
+            }
+            void Update()
+            {
+                if (playerInRange && Input.GetKeyDown(KeyCode.E)) // Interact with 'E' key
+                {
+                    OpenChestAndEjectItem();
+                }
+            }
+
+            void OpenChestAndEjectItem()
+            {
+                // Optional: Play chest open animation here
+
+                if (itemPrefab != null && ejectPoint != null)
+                {
+                    GameObject ejectedItem = Instantiate(itemPrefab, ejectPoint.position, ejectPoint.rotation);
+                    Rigidbody rb = ejectedItem.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        // Apply an upward force, and a slight random horizontal force
+                        Vector3 forceDirection = (Vector3.up * ejectionForce) + (Random.insideUnitSphere * ejectionForce * 0.5f);
+                        rb.AddForce(forceDirection, ForceMode.Impulse);
+                    }
+                }
             }
         }
     }
