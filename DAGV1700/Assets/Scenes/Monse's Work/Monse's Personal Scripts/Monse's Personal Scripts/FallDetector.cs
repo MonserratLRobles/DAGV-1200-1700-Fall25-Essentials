@@ -1,37 +1,18 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // For reloading scenes
+using UnityEngine.SceneManagement; // Important: Add this namespace
 
-public class FallDetector : MonoBehaviour
+public class FallDetectorScript : MonoBehaviour
 {
-    public GameObject gameOverPanel; // Assign your Game Over Panel in the Inspector
+    // Name of your Game Over scene
 
-    private void OnTriggerExit(Collider other)
+    void OnTriggerEnter(Collider other) // Use OnTriggerEnter2D for 2D games
     {
-        if (other.CompareTag("Player")) // Make sure your player has the "Player" tag
+        // Check if the colliding object is the player
+        // You can use tags (e.g., "Player") or names
+        if (other.CompareTag("Player"))
         {
-            if (gameOverPanel != null)
-            {
-                gameOverPanel.SetActive(true); // Show the Game Over Panel
-                Time.timeScale = 0f; // Pause the game
-            }
+            Debug.Log("Player fell! Loading Game Over scene.");
+            SceneManager.LoadScene(3);
         }
-    }
-
-    // Optional: Methods for buttons on the Game Over screen
-    public void RestartGame()
-    {
-        Time.timeScale = 1f; // Resume game time
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload current scene
-    }
-
-    public void LoadMainMenu(string mainMenuSceneName)
-    {
-        Time.timeScale = 1f; // Resume game time
-        SceneManager.LoadScene(mainMenuSceneName); // Load the main menu scene
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit(); // Quit the application (only works in builds)
     }
 }

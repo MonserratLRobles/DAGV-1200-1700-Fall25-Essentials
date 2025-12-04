@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8745964309528903740}
   - component: {fileID: 8605001143277270895}
   - component: {fileID: 7185141889017253319}
+  - component: {fileID: 6398936841154204067}
   m_Layer: 6
   m_Name: Spike 1
   m_TagString: Untagged
@@ -108,7 +109,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -169,3 +170,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6398936841154204067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7580823463742230142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6044f236b8cbdc54f96a67e1ac37f843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallDetectorScript

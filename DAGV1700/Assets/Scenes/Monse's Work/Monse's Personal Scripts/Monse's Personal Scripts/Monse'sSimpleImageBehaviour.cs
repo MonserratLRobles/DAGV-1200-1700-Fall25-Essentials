@@ -17,7 +17,21 @@ public class MonsesSimpleImageBehaviour : MonoBehaviour
         imageObj.fillAmount = dataObj.value;
         if (dataObj.value <= 0f)
         {
+            Debug.Log("PlayerIsDead");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
+
+    public void Update()
+    {
+
+        if (dataObj.value <= 0f)
+        {
+            Debug.Log("PlayerIsDead");
+            SceneManager.LoadScene(3);
+
+        }
+
+    }
+
 }

@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.Analytics;
 
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private float maxHealth = 100f;
     [SerializeField] private float currentHealth;
     [SerializeField] private Animator animator;
+    public GameObject GameOverScreen;
     void Awake()
     {
         currentHealth = maxHealth;
@@ -30,7 +32,16 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player has died!");
-        // Implement death logic here (e.g., respawn, game over screen, disable player)
-        gameObject.SetActive(false); // Example: disable the player GameObject
+        if (currentHealth <= 0)
+        {
+            // Activate the Game Over UI
+            if (GameOverScreen != null)
+            {
+                GameOverScreen.SetActive(true);
+            }// Implement death logic here (e.g., respawn, game over screen, disable player)
+            gameObject.SetActive(false); // Example: disable the player GameObject
+        }
     }
+
 }
+

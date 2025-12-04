@@ -24,6 +24,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Monse's Work/Monse's Scenes/Level 2 - Monse's Game [DAGV1700-F25].unity
     guid: c1eb1ffbbf9720f42b724c0f02eabd43
+  - enabled: 1
+    path: Assets/Scenes/Monse's Work/Monse's Scenes/GameOver.unity
+    guid: bf01366f2f45a5e449281f50824e2947
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
