@@ -33,8 +33,8 @@ public class PauseManager : MonoBehaviour
         Time.timeScale = 0f;          // Freeze game time
         isPaused = true;
         // Optional: Unlock cursor for UI interaction
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        //Cursor.lockState = CursorLockMode.None;
+        //Cursor.visible = true;
     }
 
     public void ResumeGame()
