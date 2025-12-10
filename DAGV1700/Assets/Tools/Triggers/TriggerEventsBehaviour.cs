@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -7,7 +8,7 @@ public class TriggerEventsBehaviour : MonoEventsBehaviour
     public UnityEvent triggerEnterEvent, triggerEnterRepeatEvent, triggerEnterEndEvent, triggerExitEvent;
     private WaitForSeconds waitForTriggerEnterObj, waitForTriggerRepeatObj;
     public float triggerHoldTime = 0.01f, repeatHoldTime = 0.01f, exitHoldTime = 0.01f;
-    public bool canRepeat;
+    public bool canRepeat, alreadytriggered= false;
     public int repeatTimes = 10;
 
     protected override void Awake()
@@ -19,6 +20,11 @@ public class TriggerEventsBehaviour : MonoEventsBehaviour
 
     private IEnumerator OnTriggerEnter(Collider other)
     {
+
+        // Debug.Log("eventtriggered");
+        if (alreadytriggered)
+            yield break;
+        alreadytriggered = true;
         yield return waitForTriggerEnterObj;
         triggerEnterEvent.Invoke();
         

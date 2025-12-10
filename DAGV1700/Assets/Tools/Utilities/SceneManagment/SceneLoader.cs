@@ -48,4 +48,9 @@ public class SceneLoader : MonoBehaviour
                 break;
         }
     }
+    public void settime() {
+
+        Time.timeScale = 1;
+
+    }
 }
