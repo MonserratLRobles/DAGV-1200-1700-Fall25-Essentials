@@ -37,7 +37,7 @@ public class StoreUIButtonBehaviour : InventoryUIButtonBehaviour
         {
             StoreItemObj.UsedOrPurchase = true;
             ToggleObj.isOn = true;
-            cash.UpdateValue(-StoreItemObj.Price);
+            //cash.UpdateValue(-StoreItemObj.Price);
             ButtonObj.interactable = false;
             purchaseEvent?.Invoke();
             purchaseActionObj.RaiseNoArgs();

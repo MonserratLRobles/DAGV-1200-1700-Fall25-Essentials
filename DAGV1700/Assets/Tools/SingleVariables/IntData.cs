@@ -24,22 +24,26 @@ public class IntData : ScriptableObject
     public void UpdateValue(int amount)
     {
         value += amount;
+        Debug.Log("UpdateValue");
     }
 
     public void SetValue(IntData data)
     {
         value = data.value;
+        Debug.Log("SetValue IntData");
     }
     
     public void SetValue(int data)
     {
         Value = data;
+        Debug.Log("SetValue Int");
     }
     
     public void IncrementValue()
     {
         value++;
         onValueChanged.Invoke();
+        Debug.Log("IncrementValue");
     }
 
     private void CheckValueRange()
