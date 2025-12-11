@@ -23,6 +23,7 @@ public class PauseManager : MonoBehaviour
             else
             {
                 PauseGame();
+
             }
         }
     }
@@ -43,13 +44,14 @@ public class PauseManager : MonoBehaviour
         Time.timeScale = 1f;          // Resume game time
         isPaused = false;
         // Optional: Lock cursor for gameplay
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
     }
 
     public void LoadMainMenu()
     {
         Time.timeScale = 1f; // Ensure time is reset before loading a new scene
+        ResumeGame();
         SceneManager.LoadScene("MainScene[DAGV1700-002] - Monserrat Robles"); // Replace with your main menu scene name
     }
 
