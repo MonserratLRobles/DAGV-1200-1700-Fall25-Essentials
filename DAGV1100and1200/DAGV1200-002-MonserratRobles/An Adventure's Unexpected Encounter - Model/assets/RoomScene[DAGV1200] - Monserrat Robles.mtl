@@ -1,0 +1,1500 @@
+newmtl BookGRP5:Chest:blinn51SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:Chest:blinn53SG
+illum 4
+Kd 0.15 0.15 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:Chest:blinn54SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:Chest:lambert186SG
+illum 4
+Kd 0.09 0.06 0.03
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:Chest:lambert187SG
+illum 4
+Kd 0.04 0.03 0.01
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:Chest:lambert188SG
+illum 4
+Kd 0.04 0.03 0.01
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:Chest:lambert195SG
+illum 4
+Kd 0.02 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:blinn6SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:blinn7SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:blinn8SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:blinn10SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:blinn11SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:blinn13SG
+illum 4
+Kd 1.00 0.64 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:blinn15SG
+illum 4
+Kd 1.00 0.57 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:blinn16SG
+illum 4
+Kd 1.00 0.57 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:blinn17SG
+illum 4
+Kd 0.33 0.21 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:lambert68SG
+illum 4
+Kd 0.13 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert69SG
+illum 4
+Kd 0.13 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert70SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert71SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert72SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert73SG
+illum 4
+Kd 0.07 0.09 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert74SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert75SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BookGRP5:lambert76SG
+illum 4
+Kd 0.09 0.06 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert77SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert78SG
+illum 4
+Kd 0.08 0.13 0.19
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert79SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert80SG
+illum 4
+Kd 0.45 0.24 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert81SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert82SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert83SG
+illum 4
+Kd 1.00 0.85 0.63
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert84SG
+illum 4
+Kd 0.16 0.07 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert85SG
+illum 4
+Kd 1.00 0.80 0.31
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert86SG
+illum 4
+Kd 0.16 0.07 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert88SG
+illum 4
+Kd 0.07 0.07 0.07
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert90SG
+illum 4
+Kd 0.31 0.14 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert91SG
+illum 4
+Kd 0.50 0.39 0.23
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert93SG
+illum 4
+Kd 0.11 0.11 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert94SG
+illum 4
+Kd 0.03 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BookGRP5:lambert95SG
+illum 4
+Kd 0.55 0.48 0.35
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:blinn6SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:blinn7SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:blinn8SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:blinn10SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:blinn11SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:blinn13SG
+illum 4
+Kd 1.00 0.64 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:blinn15SG
+illum 4
+Kd 1.00 0.57 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:blinn16SG
+illum 4
+Kd 1.00 0.57 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:blinn17SG
+illum 4
+Kd 0.33 0.21 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:lambert68SG
+illum 4
+Kd 0.13 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert69SG
+illum 4
+Kd 0.13 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert70SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert71SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert72SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert73SG
+illum 4
+Kd 0.07 0.09 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert74SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert75SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP1:lambert76SG
+illum 4
+Kd 0.09 0.06 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert77SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert78SG
+illum 4
+Kd 0.08 0.13 0.19
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert79SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert80SG
+illum 4
+Kd 0.45 0.24 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert81SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert82SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert83SG
+illum 4
+Kd 1.00 0.85 0.63
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert84SG
+illum 4
+Kd 0.16 0.07 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert85SG
+illum 4
+Kd 1.00 0.80 0.31
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert86SG
+illum 4
+Kd 0.16 0.07 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert88SG
+illum 4
+Kd 0.07 0.07 0.07
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert90SG
+illum 4
+Kd 0.31 0.14 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert91SG
+illum 4
+Kd 0.50 0.39 0.23
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert93SG
+illum 4
+Kd 0.11 0.11 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert94SG
+illum 4
+Kd 0.04 0.08 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert95SG
+illum 4
+Kd 0.06 0.06 0.07
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert96SG
+illum 4
+Kd 0.08 0.11 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert97SG
+illum 4
+Kd 0.33 0.21 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert98SG
+illum 4
+Kd 0.14 0.06 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert99SG
+illum 4
+Kd 0.07 0.04 0.12
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert100SG
+illum 4
+Kd 0.03 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert101SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert103SG
+illum 4
+Kd 0.03 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert104SG
+illum 4
+Kd 0.14 0.06 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert105SG
+illum 4
+Kd 0.04 0.08 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert107SG
+illum 4
+Kd 0.55 0.48 0.35
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert108SG
+illum 4
+Kd 0.55 0.48 0.35
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert109SG
+illum 4
+Kd 0.55 0.48 0.35
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP1:lambert110SG
+illum 4
+Kd 0.55 0.48 0.35
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:blinn6SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:BookGRP4:blinn7SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:BookGRP4:blinn8SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:BookGRP4:blinn10SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:BookGRP4:blinn11SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:BookGRP4:blinn13SG
+illum 4
+Kd 1.00 0.64 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:BookGRP4:blinn15SG
+illum 4
+Kd 1.00 0.57 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:BookGRP4:blinn16SG
+illum 4
+Kd 1.00 0.57 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:BookGRP4:lambert68SG
+illum 4
+Kd 0.13 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert69SG
+illum 4
+Kd 0.13 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert70SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert72SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert73SG
+illum 4
+Kd 0.07 0.09 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert74SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert75SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:BookGRP4:lambert76SG
+illum 4
+Kd 0.09 0.06 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert77SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert79SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert82SG
+illum 4
+Kd 1.00 0.77 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert85SG
+illum 4
+Kd 1.00 0.80 0.31
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert86SG
+illum 4
+Kd 0.16 0.07 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:BookGRP4:lambert91SG
+illum 4
+Kd 0.50 0.39 0.23
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:blinn44SG
+illum 4
+Kd 0.99 0.52 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:blinn45SG
+illum 4
+Kd 0.99 0.52 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:blinn46SG
+illum 4
+Kd 0.99 0.52 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:blinn47SG
+illum 4
+Kd 0.99 0.52 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:blinn48SG
+illum 4
+Kd 0.99 0.52 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:blinn49SG
+illum 4
+Kd 0.99 0.52 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:blinn50SG
+illum 4
+Kd 0.99 0.52 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl BooksGRP2:lambert176SG
+illum 4
+Kd 0.04 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:lambert177SG
+illum 4
+Kd 0.04 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:lambert178SG
+illum 4
+Kd 0.04 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:lambert179SG
+illum 4
+Kd 0.04 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:lambert180SG
+illum 4
+Kd 1.18 0.96 0.41
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:lambert182SG
+illum 4
+Kd 0.11 0.04 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:lambert183SG
+illum 4
+Kd 0.15 0.06 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:lambert184SG
+illum 4
+Kd 0.07 0.09 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl BooksGRP2:lambert185SG
+illum 4
+Kd 0.90 0.63 0.36
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Bookshelf1:lambert10SG
+illum 4
+Kd 0.13 0.07 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Chair3:lambert8SG
+illum 4
+Kd 0.18 0.09 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm -0.075188 -s_0.25_1_-s_0.125_0.25_197c4e2ec4cefde5677036579484f62a.jpg
+Ni 1.00
+newmtl Chair3:lambert9SG
+illum 4
+Kd 0.12 0.06 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl CoffeeTable2:lambert6SG
+illum 4
+Kd 0.09 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 0.150376 -s_0.25_1_-s_0.125_0.25_197c4e2ec4cefde5677036579484f62a.jpg
+Ni 1.00
+newmtl CoffeeTable2:lambert7SG
+illum 4
+Kd 0.05 0.03 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl CoffeeTablebooks:lambert98SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl CoffeeTablebooks:lambert99SG
+illum 4
+Kd 0.78 0.69 0.57
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl CoffeeTablebooks:lambert101SG
+illum 4
+Kd 0.11 0.15 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl CoffeeTablebooks:lambert102SG
+illum 4
+Kd 0.78 0.69 0.57
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Couch:lambert28SG
+illum 4
+Kd 0.07 0.04 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Couch:lambert29SG
+illum 4
+Kd 0.15 0.08 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 1 -s_0.125_0.125_-s_0.125_0.125_Dark-Grey-Couch-Fabric-Pattern-patternpictures-4413-1500x996.jpg
+Ni 1.00
+newmtl Couch:lambert30SG
+illum 4
+Kd 0.15 0.08 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 1 -s_0.125_0.125_-s_0.125_0.125_Dark-Grey-Couch-Fabric-Pattern-patternpictures-4413-1500x996.jpg
+Ni 1.00
+newmtl Couch:lambert31SG
+illum 4
+Kd 0.15 0.08 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 1 -s_0.125_0.125_-s_0.125_0.125_Dark-Grey-Couch-Fabric-Pattern-patternpictures-4413-1500x996.jpg
+Ni 1.00
+newmtl Couch:lambert32SG
+illum 4
+Kd 0.07 0.04 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Couch:lambert33SG
+illum 4
+Kd 0.15 0.08 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 1 -s_0.125_0.125_-s_0.125_0.125_Dark-Grey-Couch-Fabric-Pattern-patternpictures-4413-1500x996.jpg
+Ni 1.00
+newmtl Couch:lambert34SG
+illum 4
+Kd 0.15 0.08 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 1 -s_0.125_0.125_-s_0.125_0.125_Dark-Grey-Couch-Fabric-Pattern-patternpictures-4413-1500x996.jpg
+Ni 1.00
+newmtl Couch:lambert36SG
+illum 4
+Kd 0.15 0.08 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 1 -s_0.125_0.125_-clamp_off_-s_0.125_0.125_Dark-Grey-Couch-Fabric-Pattern-patternpictures-4413-1500x996.jpg
+Ni 1.00
+newmtl Couch:lambert37SG
+illum 4
+Kd 0.15 0.08 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 1 -s_0.125_0.125_-s_0.125_0.125_Dark-Grey-Couch-Fabric-Pattern-patternpictures-4413-1500x996.jpg
+Ni 1.00
+newmtl Couch:lambert38SG
+illum 4
+Kd 0.15 0.08 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 1 -s_0.125_0.125_-s_0.125_0.125_Dark-Grey-Couch-Fabric-Pattern-patternpictures-4413-1500x996.jpg
+Ni 1.00
+newmtl Couch:lambert39SG
+illum 4
+Kd 0.07 0.04 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert127SG
+illum 4
+Kd 0.85 0.48 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert128SG
+illum 4
+Kd 0.45 0.19 0.08
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert129SG
+illum 4
+Kd 0.24 0.10 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert130SG
+illum 4
+Kd 0.10 0.12 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert131SG
+illum 4
+Kd 0.10 0.12 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert132SG
+illum 4
+Kd 0.85 0.48 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert133SG
+illum 4
+Kd 0.45 0.19 0.08
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert134SG
+illum 4
+Kd 0.24 0.10 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert135SG
+illum 4
+Kd 0.85 0.48 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert136SG
+illum 4
+Kd 0.85 0.48 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert137SG
+illum 4
+Kd 0.45 0.19 0.08
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert138SG
+illum 4
+Kd 0.24 0.10 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert139SG
+illum 4
+Kd 0.06 0.07 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert140SG
+illum 4
+Kd 0.24 0.29 0.10
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DrapedBlanket:lambert141SG
+illum 4
+Kd 0.24 0.10 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Globe_Model1:blinn56SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Globe_Model1:blinn57SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Globe_Model1:blinn58SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Globe_Model1:blinn59SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Globe_Model1:blinn60SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Globe_Model1:blinn61SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Globe_Model1:blinn62SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Globe_Model1:blinn63SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Globe_Model1:blinn64SG
+illum 4
+Kd 0.29 0.17 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Globe_Model1:lambert190SG
+illum 4
+Kd 0.04 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Mug2:lambert2SG
+illum 4
+Kd 0.12 0.15 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Mug2:lambert3SG
+illum 4
+Kd 0.36 0.29 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Mug2:lambert4SG
+illum 4
+Kd 0.12 0.15 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Mug2:lambert5SG
+illum 4
+Kd 0.73 0.47 0.21
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert156SG
+illum 4
+Kd 0.48 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert157SG
+illum 4
+Kd 0.18 0.23 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert158SG
+illum 4
+Kd 0.32 0.09 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert159SG
+illum 4
+Kd 0.00 0.13 0.30
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert160SG
+illum 4
+Kd 0.09 0.05 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert161SG
+illum 4
+Kd 0.02 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert162SG
+illum 4
+Kd 0.34 0.19 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert163SG
+illum 4
+Kd 0.16 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert164SG
+illum 4
+Kd 0.02 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert165SG
+illum 4
+Kd 0.34 0.19 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert166SG
+illum 4
+Kd 0.13 0.16 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert167SG
+illum 4
+Kd 0.07 0.04 0.13
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rubiks_Cube:lambert168SG
+illum 4
+Kd 0.00 0.09 0.21
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rug:lambert65SG
+illum 4
+Kd 0.17 0.11 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rug:lambert66SG
+illum 4
+Kd 0.10 0.03 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rug:lambert67SG
+illum 4
+Kd 0.25 0.16 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rug:lambert94SG
+illum 4
+Kd 0.24 0.15 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Rug:lambert95SG
+illum 4
+Kd 0.17 0.06 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Small_Lamp:blinn26SG
+illum 4
+Kd 0.85 0.48 0.16
+Ka 0.00 0.00 0.00
+Tf 0.24 0.24 0.24
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn27SG
+illum 4
+Kd 0.15 0.15 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn30SG
+illum 4
+Kd 0.48 0.27 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn31SG
+illum 4
+Kd 0.48 0.27 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn32SG
+illum 4
+Kd 0.48 0.27 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn33SG
+illum 4
+Kd 0.27 0.15 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn34SG
+illum 4
+Kd 0.27 0.15 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn35SG
+illum 4
+Kd 0.48 0.27 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn36SG
+illum 4
+Kd 0.27 0.15 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn37SG
+illum 4
+Kd 0.48 0.27 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn38SG
+illum 4
+Kd 0.27 0.15 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn39SG
+illum 4
+Kd 0.27 0.15 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn40SG
+illum 4
+Kd 0.48 0.27 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:blinn55SG
+illum 4
+Kd 0.49 0.26 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Small_Lamp:lambert150SG
+illum 4
+Kd 0.44 0.44 0.44
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Small_Lamp:lambert151SG
+illum 4
+Kd 0.09 0.05 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Small_Lamp:lambert153SG
+illum 4
+Kd 0.09 0.05 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Small_Lamp:lambert154SG
+illum 4
+Kd 0.09 0.05 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Small_Lamp:lambert155SG
+illum 4
+Kd 0.09 0.05 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl StarPlush:lambert96SG
+illum 4
+Kd 0.44 0.25 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl StarPlush:lambert97SG
+illum 4
+Kd 0.26 0.15 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Table3:lambert6SG
+illum 4
+Kd 0.09 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 0.864662 -s_0.25_1_-s_0.125_0.25_197c4e2ec4cefde5677036579484f62a.jpg
+Ni 1.00
+newmtl Table3:lambert9SG
+illum 4
+Kd 0.06 0.03 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl blinn41SG
+illum 4
+Kd 0.44 0.24 0.00
+Ka 0.00 0.00 0.00
+Tf 0.71 0.71 0.71
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn42SG
+illum 4
+Kd 0.22 0.22 0.22
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn43SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn66SG
+illum 4
+Kd 1.00 0.53 0.00
+Ka 0.00 0.00 0.00
+Tf 0.03 0.03 0.03
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl lambert12SG
+illum 4
+Kd 0.53 0.40 0.25
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert13SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert14SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert24SG
+illum 4
+Kd 0.18 0.06 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert26SG
+illum 4
+Kd 0.09 0.05 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump  -bm 0.150376 -s_0.125_0.25_-s_0.125_0.25_197c4e2ec4cefde5677036579484f62a.jpg
+Ni 1.00
+newmtl lambert27SG
+illum 4
+Kd 0.04 0.02 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert169SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert170SG
+illum 4
+Kd 0.53 0.40 0.25
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert171SG
+illum 4
+Kd 0.88 0.67 0.36
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert172SG
+illum 4
+Kd 0.50 0.29 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert173SG
+illum 4
+Kd 0.17 0.13 0.07
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert174SG
+illum 4
+Kd 0.27 0.18 0.27
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert193SG
+illum 4
+Kd 0.07 0.09 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert194SG
+illum 4
+Kd 0.17 0.22 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert195SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert196SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
