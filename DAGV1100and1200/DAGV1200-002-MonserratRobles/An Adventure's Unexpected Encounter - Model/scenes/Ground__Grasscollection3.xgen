@@ -2,7 +2,7 @@
 #
 # Version:  C:/Program Files/Autodesk/Maya2026/plug-ins/xgen/
 # Author:   Monse
-# Date:     Thu Dec 11 23:38:20 2025
+# Date:     Fri Dec 12 11:15:46 2025
 
 FileVersion 18
 
@@ -115,7 +115,7 @@ SplinePrimitive
 	bendV[0]		map('${DESC}/groom/bend/',2)
 	fxCVCount		5
 	uniformCVs		true
-	taper			$a=0.0300;#-1.0,1.0\n$a
+	taper			$a=0.6700;#-1.0,1.0\n$a
 	taperStart		$a=0.0000;#0.0,1.0\n$a
 	displayWidth		true
 	faceCamera		true
