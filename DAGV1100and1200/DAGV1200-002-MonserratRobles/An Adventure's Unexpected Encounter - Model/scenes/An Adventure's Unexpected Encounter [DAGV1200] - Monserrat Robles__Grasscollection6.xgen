@@ -2,7 +2,7 @@
 #
 # Version:  C:/Program Files/Autodesk/Maya2026/plug-ins/xgen/
 # Author:   Monse
-# Date:     Fri Dec 12 11:15:41 2025
+# Date:     Tue Jan 20 20:03:26 2026
 
 FileVersion 18
 
@@ -10,7 +10,7 @@ Palette
 	name			Grasscollection6
 	parent			
 	xgDataPath		${PROJECT}xgen/collections/Grasscollection6
-	xgProjectPath		C:/Users/Monse/OneDrive - Utah Valley University/Documents/maya/projects/default/
+	xgProjectPath		C:/Users/Monse/PC Documents/GitHub/PersonalProjects/World in a Bottle/
 	xgDogTag		
 	custom_color_grasscolor	[rand(0,.7),1,rand(0,.2)]
 	endAttrs
@@ -30,7 +30,7 @@ Description
 	groom			groom_Grassdescription6
 	descriptionId		0
 	xgDataPath		${PROJECT}xgen/collections/Grasscollection6/
-	xgProjectPath		C:/Users/Monse/OneDrive - Utah Valley University/Documents/maya/projects/default/
+	xgProjectPath		C:/Users/Monse/PC Documents/GitHub/PersonalProjects/World in a Bottle/
 	endAttrs
 
 NullRenderer
