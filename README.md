@@ -3,4 +3,4 @@ Welcome to  my UVU DAGV Essentials Repo!
 This repository carries my work for DAGV1200 & DAGV1700 Fall'25
 Contents include two of my models for DAGV1200 and a complete game for DAGV1700.
 DAGV1200: 
-DAGV1700:
+DAGV1700: https://github.com/MonserratLRobles/UVU-DAGV-Essentials-Fall-2025---Monserrat-Robles/tree/main/DAGV1700/Assets/Scenes/Monse's%20Work
