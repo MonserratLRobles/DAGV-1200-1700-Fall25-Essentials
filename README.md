@@ -2,7 +2,7 @@
 This repository contains my work for DAGV1200 & DAGV1700 Fall'25
 Contents include two of my models for DAGV1200 and a complete game for DAGV1700.
 
- An Adventure's Unexpected Encounter: 
+ An Adventure's Unexpected Encounter: https://github.com/MonserratLRobles/UVU-DAGV-Essentials-Fall-2025---Monserrat-Robles/tree/main/DAGV1200/An%20Adventure's%20Unexpected%20Encounter%20-%20Model
 
  Room Model: 
 
